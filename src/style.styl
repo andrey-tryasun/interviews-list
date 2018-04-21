@@ -1,0 +1,101 @@
+body
+  font: 14px / 100% Roboto, sans-serif;
+  box-sizing: border-box;
+
+.container-list  
+  display: inline-block;
+  box-sizing: border-box;
+  width: 50%;
+  border-right: 2px solid black;
+  padding: 20px;
+  text-align: right;
+
+.container-new-card
+  display: inline-block;
+  box-sizing: border-box;
+  width: 50%;
+  padding: 20px;
+  text-align: left;
+  vertical-align: top;
+
+.label
+  display: block;
+  font-size: 0.8rem;
+
+.input
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 2px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-family: Roboto, sans-serif;
+  font-size: 1.1rem;
+
+.card
+  display: inline-block;
+  width: 443px;
+  border: 2px solid #ccc;
+  padding: 12px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+  text-align: left;
+  &.edit-card
+    background-clip: content-box;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2), inset 0 0 15px 5px #ccc;
+
+.textarea
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  height: 24px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 2px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  resize: none;
+  overflow: hidden;
+  font-family: Roboto, sans-serif;
+  font-size: 1.1rem;
+
+.icon-plate
+  box-sizing: border-box;
+  margin: 35px 0 0 0;
+  padding: 0;
+  height: 60px;
+  line-height: 60px;
+  text-align: right;
+  border-top: 1px solid black;
+
+.link
+  font-size: 2em;
+  text-decoration: none;
+  color: black;
+  margin-right: 15px;
+  transition: 0.3s;
+
+.edit
+  &:hover
+    color: blue;
+
+.delete
+  &:hover
+    color: red;
+
+.add
+  &:hover
+    color: green;
+
+.save
+  &:hover
+    color: green;
+
+.cancel
+  &:hover
+    color: red;
+
+.editable
+  color: blue;
